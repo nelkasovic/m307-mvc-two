@@ -12,4 +12,4 @@ $controller = new Controller($request);
 // Inhalt der Webanwendung ausgeben.
 echo $controller->display();
 
-?>
+print_r($request);
